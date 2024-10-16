@@ -1,0 +1,26 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore .env file at root
+.env
+
+# Ignore any env file in config folder
+/config/*.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build output
+dist/
+build/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.swp
